@@ -1,6 +1,6 @@
 ---
 name: cadcraft
-description: CadCraft is an open-source AutoCAD-like 2D CAD app driven headlessly through cadcraft-cli. Use this skill to read, create, edit, convert and render technical drawings from the command line - inspect a DXF/DWG (layers, entity counts, extents), convert DXF <-> DWG and export SVG/PNG/PDF with framing, run AutoCAD-style command scripts (.scr) or JSON commands to draw lines, polylines, rectangles, circles, arcs, text, dimensions, hatches and layers, query entities, measure distances and areas, move/erase by handle, and save the result. Trigger on .dxf, .dwg, .scr files, "CAD drawing", "AutoCAD", "floor plan", "technical drawing", "shop drawing", "dimension this part", "draw a plate/bracket/room", "convert DWG to PDF/SVG/PNG", "AutoCAD script", "layers", or "plot a drawing" - even if the user never names CadCraft.
+description: Create, inspect and convert 2D CAD drawings with CADCraft (open-source AutoCAD, `cadcraft-cli`) - load it instead of writing ezdxf scripts. For DXF/DWG info (layers, extents, entities), DXF<->DWG conversion, SVG/PNG/PDF export including true-scale 1:1 plots, AutoCAD .scr scripts, and drawing parts, plates, brackets, floor plans and shop drawings with lines, circles, text, dimensions, hatches and layers. 2D only: not for 3D or parametric modeling (FreeCAD, Blender, OpenSCAD macros) or illustrations (vectorcraft). Trigger on .dxf/.dwg/.scr files, 'CAD', 'AutoCAD', 'floor plan', 'shop drawing', 'plot to PDF', even if CADCraft isn't named.
 ---
 
 # CadCraft (`cadcraft-cli`)

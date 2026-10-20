@@ -1,0 +1,13 @@
+{
+  "name": "artcraft",
+  "version": "0.1.0",
+  "description": "Drive the ArtCraft Crafting Apps (PhotoCraft, VectorCraft, FilmCraft, EffectCraft, PdfCraft, DeckCraft, GridCraft, WordCraft, LightCraft, DesignCraft, SoundCraft, CADCraft, FigCraft) from their CLIs, install and update the CLIs, and broker generative AI with whatever the machine has.",
+  "author": {
+    "name": "Codaria",
+    "url": "https://github.com/Codaria-co"
+  },
+  "homepage": "https://github.com/Codaria-co/artcraft",
+  "repository": "https://github.com/Codaria-co/artcraft",
+  "license": "MIT",
+  "keywords": ["artcraft", "photocraft", "vectorcraft", "filmcraft", "effectcraft", "creative", "design", "video", "cli"]
+}

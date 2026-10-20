@@ -1,6 +1,6 @@
 ---
 name: figcraft
-description: FigCraft is an open-source Figma equivalent for UI and interface design (frames, components and instances, auto layout, variables, styles). This skill drives it headless through figcraft-cli to build screens from JSON command scripts, inspect files, edit them in place, render pages, export each frame to PNG/JPG/WebP/SVG/PDF (with print bleed, crop marks and CMYK) and convert between .figcraft, Figma REST API JSON, .fig (best effort), SVG and images. Use it whenever the user wants to mock up an app screen, wireframe, landing page, dashboard, UI kit, button or card component, design tokens or light/dark themes; open, inspect, render or export a .figcraft, .fig or Figma JSON file; turn a Figma file into PNGs, SVGs or a PDF; or produce a deterministic UI render in CI, even if they never name FigCraft.
+description: Design UI screens and mockups with FigCraft (open-source Figma, `figcraft-cli`) - visual design files, not code. For app and web screens, wireframes, landing page designs, dashboards, App Store screenshots, components and variants, auto layout, design tokens as variables with light/dark modes; open, inspect and export .figcraft, .fig or Figma REST API JSON to PNG/SVG/PDF per frame. Not for writing frontend code (React, CSS), logos (vectorcraft) or print layouts (designcraft). Trigger on 'mockup', 'wireframe', 'UI design', 'diseno visual', 'Figma file', 'export frames', even if FigCraft isn't named.
 ---
 
 # FigCraft (`figcraft-cli`)

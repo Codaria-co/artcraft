@@ -36,8 +36,10 @@ LLMs. Use them for text: prompts, captions, scripts, alt text, slide copy. Ollam
 `POST /api/generate {"model","prompt","stream":false}`; list models with `GET /api/tags`.
 
 **Voice and audio, offline:**
-- **macOS:** `say -v '?'` lists the voices. Write the file with `say -v Samantha -o vo.aiff "text"`,
-  then convert with `soundcraft-cli convert vo.aiff vo.wav`.
+- **macOS:** `say -v '?'` lists the voices (pick one matching the text's language, e.g. `Paulina`
+  for Spanish). Write a video-ready WAV directly:
+  `say -v Paulina --file-format=WAVE --data-format=LEI16@48000 -o vo.wav "texto"` (16-bit, 48 kHz).
+  Use `soundcraft-cli convert` only for further processing such as `--normalize`.
 - **Linux/Windows/macOS:** use `piper`:
   `echo "text" | piper --model <voice>.onnx --output_file vo.wav`.
 - **Windows:** use `System.Speech.Synthesis.SpeechSynthesizer`:

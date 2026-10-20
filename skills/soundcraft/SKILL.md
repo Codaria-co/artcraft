@@ -106,8 +106,10 @@ trying commands without your own audio.
   head leaves silence before it in a full bounce; use `--start`.
 - `file.bounce_mix` `format` overrides the extension: `{"path":"x.wav","format":"flac"}` writes FLAC
   bytes into a `.wav`. Let the extension choose, or keep them consistent.
-- Mono tracks bounce to the stereo main bus about 3 dB lower (pan law). Bounces are 24-bit unless
-  `bit_depth` is set.
+- Mono tracks bounce to the stereo main bus about 3 dB lower (pan law); add `clip.gain` +3 dB to
+  keep the source level. Bounces are always stereo (no mono export) and 24-bit unless `bit_depth`
+  is set. `--normalize` is peak normalization, not loudness: read `lufs` from the bounce result and
+  adjust gain if a platform target (e.g. -16 LUFS podcasts) matters.
 - Imports at another sample rate are resampled to the session rate (default 48000).
 - Plugin values out of range are clamped silently (ratio 200 -> 100); unknown param ids fail.
 - `--inspect` shows insert `params: null`; use `track.inspect` to see real plugin values.

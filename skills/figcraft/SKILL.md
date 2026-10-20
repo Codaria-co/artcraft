@@ -116,7 +116,10 @@ Merriweather, Playfair Display, Source Sans 3, Liberation, Noto Sans Arabic, …
 - Ids are integers assigned in order: the first page is 1, the first layer 2. Prefer `{"$step": n}`
   over hard-coded ids; ids differ after a `.fig` round trip (page becomes 2, frame 3).
 - Variable ids are strings (`VariableID:1`); reference variables and collections by name instead.
-- `export -o dir/` writes one file per top-level frame, components included; use `--node` for one.
+- `export -o dir/` writes one file per top-level frame **of the first page only**, components
+  included; for multi-page files run `figcraft-cli info` and export each page with `--page NAME`.
+  Use `--node` for one frame. A frame stroke drawn outside adds its width to the PNG (a 1440×960
+  frame with a 1 px outside stroke exports 2884×1924 at 2x).
   `--node` takes a name, an id (`7`) or `0:7`; a bad node or `--page` exits 1 and names the pages.
 - A component made at the top level is also a top-level frame, so it shows up in `render` and in
   directory exports. Put components on a separate page if exports must be screens only: `page.add`

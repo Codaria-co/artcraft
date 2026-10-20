@@ -1,0 +1,22 @@
+[
+  {"query": "turn docs/q3-review.md into a 16:9 slide deck — each H2 a slide, bullets as bullets, put the speaker notes from the blockquotes into the notes, and export both pptx and pdf", "should_trigger": true},
+  {"query": "Necesito la presentación para el pitch con inversionistas del jueves: problema, solución, mercado, tracción (con un gráfico de barras de usuarios mensuales), equipo y la ronda. Algo limpio, 10 diapositivas máximo.", "should_trigger": true},
+  {"query": "my manager sent all_hands_oct.pptx — slides 4 and 9 need to swap, delete the old roadmap slide 12, and change the theme font to Inter everywhere", "should_trigger": true},
+  {"query": "I'm giving a 20 min talk at RustConf on async cancellation. Build me the slides from my outline in talk/outline.txt, code snippets in monospace, fade transitions", "should_trigger": true},
+  {"query": "generate PNG thumbnails of every slide in training/onboarding.pptx at 1280px wide so I can embed them in our Notion page", "should_trigger": true},
+  {"query": "make the weekly status deck from status.json: one slide per project with a RAG status shape, a 3-column table of milestones, and a summary slide at the start", "should_trigger": true},
+  {"query": "convert the old 4:3 lecture slides in course/week1..week8 .pptx to 16:9 without the content looking stretched, then merge them into one master deck", "should_trigger": true},
+  {"query": "quick q: what's in client_proposal.ppsx? list slide titles and any speaker notes, I don't have PowerPoint on this machine", "should_trigger": true},
+  {"query": "hazme unas diapositivas para la clase de mañana sobre la fotosíntesis, nivel colegio, con un diagrama del ciclo y una diapositiva de preguntas al final", "should_trigger": true},
+  {"query": "build a keynote-style deck for our product launch event: big hero images from assets/launch/, one idea per slide, and export an animated GIF preview for twitter", "should_trigger": true},
+  {"query": "design the onboarding flow screens for our mobile app in Figma-style frames with auto layout and a shared button component, export PNGs for the dev handoff", "should_trigger": false},
+  {"query": "lay out a 24-page annual report magazine with parent pages, threaded body text and pull quotes, export print PDF with bleed and an EPUB", "should_trigger": false},
+  {"query": "merge the PDFs that the three speakers sent (their slides already exported as speaker1.pdf, speaker2.pdf, speaker3.pdf) into one file for the conference attendees", "should_trigger": false},
+  {"query": "write a long-form 15-page whitepaper on our security architecture with headings, a TOC, footnotes and export to docx", "should_trigger": false},
+  {"query": "our reveal.js presentation in talks/kubecon/index.html has broken syntax highlighting after upgrading the plugin, can you fix the config?", "should_trigger": false},
+  {"query": "Write a python script in tools/report.py that uses python-pptx to generate the monthly KPI slides from our Postgres view, and add it to the cron job", "should_trigger": false},
+  {"query": "I need a 30-second animated promo video with the slides' key messages flying in, music bed, rendered as mp4 for LinkedIn", "should_trigger": false},
+  {"query": "give me tips on structuring a 10-minute conference talk — how many slides, how to open, how to handle Q&A. no files, just advice", "should_trigger": false},
+  {"query": "build the pie chart of revenue by region from sales.xlsx with proper number formatting in the workbook, add a pivot table on a new sheet", "should_trigger": false},
+  {"query": "create a single social media banner 1500x500 for our twitter header with the logo and tagline, vector so it scales", "should_trigger": false}
+]

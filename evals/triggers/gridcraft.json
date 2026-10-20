@@ -1,0 +1,22 @@
+[
+  {"query": "convert exports/transactions_2026-09.csv into an xlsx with a proper table, currency format on the Amount column, frozen header row and a total at the bottom", "should_trigger": true},
+  {"query": "Tengo el inventario en bodega.xlsx y necesito una tabla dinámica por categoría y proveedor con la suma de unidades, en una hoja nueva llamada Resumen. ¿Me ayudas?", "should_trigger": true},
+  {"query": "this XLOOKUP in budget.xlsx sheet 'Forecast' cell F12 returns #N/A but the value is clearly in the lookup range. figure out why and fix it", "should_trigger": true},
+  {"query": "the finance team's model.xlsm has like 400 formulas; after I changed the tax rate on Inputs!B3 I need to verify none of the downstream sheets break or show errors", "should_trigger": true},
+  {"query": "build me a simple expense tracker spreadsheet: date, category dropdown, amount, monthly totals with SUMIFS, and a column chart of spend per category", "should_trigger": true},
+  {"query": "highlight in red every row in clients.xlsx where Days Overdue > 30, sort by that column descending, and save a copy as clients_overdue.xlsx", "should_trigger": true},
+  {"query": "I got a legacy .xls and an .ods from a supplier, both price lists — merge them into one workbook with one sheet each and also give me a CSV of the combined list", "should_trigger": true},
+  {"query": "load api_dump/users.json (array of objects) into a sheet, one column per field, and export it as an HTML table I can paste into the wiki", "should_trigger": true},
+  {"query": "what does =SUMPRODUCT((Region=\"Norte\")*(Month=3)*Sales) evaluate to against ventas_q1.xlsx? I want the actual number, not just an explanation", "should_trigger": true},
+  {"query": "print the 'Nómina' sheet of nomina_octubre.xlsx to PDF in landscape, fit to one page wide, so I can attach it to the email for the accountant", "should_trigger": true},
+  {"query": "In our data pipeline repo, refactor etl/clean.py so the pandas groupby on customer_id runs faster — it currently takes 9 min on 20M rows", "should_trigger": false},
+  {"query": "write a SQL query against our Postgres orders table that gives monthly revenue per region with a running total, using window functions", "should_trigger": false},
+  {"query": "Add an /export endpoint to the FastAPI app in api/reports.py that streams an xlsx with openpyxl from the query results, with proper auth checks", "should_trigger": false},
+  {"query": "explícame la diferencia entre BUSCARV y BUSCARX y cuándo conviene INDICE+COINCIDIR, es para una capacitación que voy a dar, no tengo archivo", "should_trigger": false},
+  {"query": "make a slide with a bar chart of Q3 revenue by region for tomorrow's board deck, matching the theme of board_q3.pptx", "should_trigger": false},
+  {"query": "build a jupyter notebook that loads sales.parquet, does a cohort retention analysis and plots a heatmap with seaborn", "should_trigger": false},
+  {"query": "set up a Google Sheet shared with my team that pulls our Stripe payouts automatically every morning", "should_trigger": false},
+  {"query": "the CSV parser in src/import/csv.rs chokes on quoted fields with embedded newlines, fix it and add a test", "should_trigger": false},
+  {"query": "write the quarterly financial memo for the CFO as a Word doc: two pages, narrative explanation of variance, with a small summary table", "should_trigger": false},
+  {"query": "our dbt model fct_orders is producing duplicate rows after the last merge — trace which join is fanning out", "should_trigger": false}
+]

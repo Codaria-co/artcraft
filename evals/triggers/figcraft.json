@@ -1,0 +1,22 @@
+[
+  {"query": "mock up 3 screens for a habit tracker app (home, add habit, stats) on iPhone 16 frames with auto layout, a reusable Button and HabitCard component, and export each frame as PNG @2x", "should_trigger": true},
+  {"query": "I downloaded our Figma file via the REST API to design-system.json. Can you convert every frame to SVG and also a PDF of the whole page for the stakeholder review?", "should_trigger": true},
+  {"query": "necesito un wireframe de baja fidelidad para el dashboard administrativo: sidebar, header con buscador, 4 tarjetas KPI y una tabla. en grises, 1440 de ancho, exportado a png", "should_trigger": true},
+  {"query": "set up design tokens as variables with light and dark modes (bg, surface, text, primary #6C47FF) and build a card component that uses them, then render both modes side by side", "should_trigger": true},
+  {"query": "open onboarding.figcraft, change all the 'Get started' button labels to 'Empezar', bump the corner radius on the component to 16 and re-export the frames", "should_trigger": true},
+  {"query": "in CI I want a deterministic PNG render of every frame in ui/screens.figcraft so we can do visual diffs on PRs — what's the command and how do I wire it into the GitHub Action?", "should_trigger": true},
+  {"query": "a client sent me a .fig file, I don't have a Figma account. can you inspect what pages and components are in it and export the 'Landing' frame as a PDF with bleed and crop marks in CMYK for print?", "should_trigger": true},
+  {"query": "design a UI kit with buttons (primary/secondary/ghost, 3 sizes), inputs, toggles and a modal as component variants, and save it as a .figcraft file", "should_trigger": true},
+  {"query": "Hazme el diseño visual de una landing page para una app de domicilios en Bogotá — hero, 3 beneficios, testimonios y footer — como mockup de diseño, no código", "should_trigger": true},
+  {"query": "Make a set of 5 App Store screenshots (1290x2796) showing the app UI in device frames with headline text above each one", "should_trigger": true},
+  {"query": "implement this landing page design in Next.js with Tailwind: hero with gradient, 3 feature cards, pricing table, responsive down to 375px", "should_trigger": false},
+  {"query": "my React Button component's hover state flickers in Safari and the focus ring is missing — fix the CSS module", "should_trigger": false},
+  {"query": "design a wordmark logo for 'Tienda Nube Verde' with a leaf integrated in the N, export SVG and PNG at 512", "should_trigger": false},
+  {"query": "create a tri-fold print brochure for the app launch, letter size with bleed, using our screenshots", "should_trigger": false},
+  {"query": "convert our design tokens tokens.json into CSS custom properties and a Tailwind theme config with dark mode", "should_trigger": false},
+  {"query": "make a 10-slide product demo deck with screenshots of the app and speaker notes, pptx", "should_trigger": false},
+  {"query": "use the Figma MCP to read the selected node in my open Figma desktop file and generate the matching SwiftUI view", "should_trigger": false},
+  {"query": "build a Storybook for our component library with stories for every variant of Button and Input", "should_trigger": false},
+  {"query": "draw a detailed vector illustration of a toucan for the app's empty state, flat style, export SVG", "should_trigger": false},
+  {"query": "run a usability review of the checkout page at localhost:3000 and tell me which heuristics it violates", "should_trigger": false}
+]

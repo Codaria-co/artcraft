@@ -1,0 +1,22 @@
+[
+{"query": "i just got a new mac and want all the craft CLIs on it (photocraft-cli, filmcraft-cli, the whole set). can you install them and tell me if ~/.local/bin needs to go on my PATH?", "should_trigger": true},
+{"query": "filmcraft-cli keeps saying 'unknown command id sequence.razor' even though the docs show it. I think my CLIs are stale, can you check which ones are outdated and update them?", "should_trigger": true},
+{"query": "Mi empresa ya no quiere pagar Adobe Creative Cloud. Usamos Photoshop, Illustrator, Premiere y Acrobat. ¿Qué alternativas gratis y open source hay que se puedan automatizar desde la terminal?", "should_trigger": true},
+{"query": "what's ArtCraft exactly? I saw getartcraft.com mentioned on hacker news, is it the AI studio or the open source desktop apps, and which of them can you actually drive from here?", "should_trigger": true},
+{"query": "I need a pipeline: take ~/shoot/hero.jpg, clean it up and crop to 16:9, drop it into a one-page A4 flyer with our event text, and export a print-ready PDF with bleed. which tools do I chain and in what order?", "should_trigger": true},
+{"query": "necesito armar un flujo completo para el lanzamiento: generar una imagen de fondo, retocarla, montar un video vertical de 15 s con títulos animados y exportar el 9:16 para reels. ¿qué apps uso en cada paso?", "should_trigger": true},
+{"query": "is there a free replacement for autocad that I can script? we have a bunch of .scr files from the old office and no license anymore", "should_trigger": true},
+{"query": "on windows 11, how do i install the crafting apps clis? the powershell script failed with a json quoting error when i ran gridcraft-cli right after", "should_trigger": true},
+{"query": "I have the quarterly numbers in data/q3.xlsx — make the charts, put them into a 10-slide pptx deck and also give me a PDF handout. figure out which of the craft apps handles each part", "should_trigger": true},
+{"query": "craft-clis.sh check exits 1 and says designcraft and soundcraft are missing, the rest are installed. GITHUB_TOKEN is set. can you sort it out?", "should_trigger": true},
+{"query": "resize every PNG in ./assets/products to 1200x1200 on white and save them as webp into ./assets/web", "should_trigger": false},
+{"query": "convert logo.ai to svg and outline all the fonts so the web dev doesn't need Gotham installed", "should_trigger": false},
+{"query": "add burned-in subtitles from entrevista.srt to entrevista.mp4 and export an h264 at 1080p", "should_trigger": false},
+{"query": "merge invoices/*.pdf into one file sorted by date and run OCR on the scanned ones", "should_trigger": false},
+{"query": "I'm writing a Minecraft mod in Java and the crafting table recipe for my custom pickaxe isn't registering. here's my RecipeProvider class", "should_trigger": false},
+{"query": "can you help me set up a Craft CMS site on DDEV? composer install keeps failing on the craftcms/cms package", "should_trigger": false},
+{"query": "write a Rust CLI with clap that takes an input image path and an output path and shells out to ImageMagick for conversion", "should_trigger": false},
+{"query": "compare Affinity Photo vs GIMP vs Photopea for a hobbyist, I only edit photos a few times a month in the GUI and don't care about scripting", "should_trigger": false},
+{"query": "genera un video de 5 segundos de una taza de café humeante en una mesa de madera, estilo cinematográfico, 9:16", "should_trigger": false},
+{"query": "my Brewfile is a mess, clean it up and make sure ffmpeg, imagemagick and inkscape are pinned to their current versions", "should_trigger": false}
+]

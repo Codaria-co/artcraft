@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "artcraft",
+  "description": "Claude Code skills for the ArtCraft Crafting Apps suite.",
+  "owner": {
+    "name": "Codaria",
+    "url": "https://github.com/Codaria-co"
+  },
+  "plugins": [
+    {
+      "name": "artcraft",
+      "description": "Skills for the 13 ArtCraft Crafting Apps CLIs, a CLI installer/updater and a generative-AI broker.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

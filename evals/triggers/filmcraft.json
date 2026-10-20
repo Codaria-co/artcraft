@@ -1,0 +1,22 @@
+[
+{"query": "I recorded a 40-minute interview (cam_a.mp4 and cam_b.mp4). make a rough cut keeping 02:10-05:45 and 12:00-15:30, add a lower third with 'María Gómez, CEO' and export h264 1080p", "should_trigger": true},
+{"query": "quema los subtítulos de charla.srt en charla.mov y saca una versión vertical 9:16 para Reels y TikTok", "should_trigger": true},
+{"query": "the colorist sent back grade.xml (FCP7). relink it to the media in /Volumes/RAID/footage and export a ProRes 422 HQ master", "should_trigger": true},
+{"query": "probe all the clips in ./rushes and tell me codec, fps and duration — I think some are 25 and some 29.97", "should_trigger": true},
+{"query": "assemble intro.mp4, demo.mp4 and outro.mp4 in order, drop the music track music.wav under it at -18 dB and fade it out over the last 3s", "should_trigger": true},
+{"query": "speed up the middle part of tutorial.mp4 (from 1:30 to 4:00) to 2x, ripple delete the dead air at 6:12-6:40, and export", "should_trigger": true},
+{"query": "my editor uses Resolve, I'm on filmcraft. export the timeline in edit.fcproj as an OTIO and an EDL so she can conform it", "should_trigger": true},
+{"query": "grab a still frame at 00:01:23:10 from finale.mov as a png for the youtube thumbnail", "should_trigger": true},
+{"query": "the footage is too cold and dark, warm it up a bit and lift the shadows across the whole sequence, then render a 10s test before the full export", "should_trigger": true},
+{"query": "turn this 2-minute webinar highlight into a gif for the README, 640px wide, 12fps, under 10MB", "should_trigger": true},
+{"query": "design an animated title sequence with particles, glow and keyframed text and export it with alpha", "should_trigger": false},
+{"query": "clean up the noise and hum in podcast_raw.wav, add EQ and compression, master to -16 LUFS", "should_trigger": false},
+{"query": "genera un video de 8 segundos de una ola rompiendo en cámara lenta al atardecer", "should_trigger": false},
+{"query": "my ffmpeg-python script drops audio when concatenating clips with different sample rates, here's concat.py", "should_trigger": false},
+{"query": "write a video.js player config with HLS, captions toggle and a custom poster for our landing page", "should_trigger": false},
+{"query": "write the script and shot list for a 30s product ad, I'll film it next week", "should_trigger": false},
+{"query": "make a youtube thumbnail from thumb_template.psd with the title 'I tried Rust for 30 days'", "should_trigger": false},
+{"query": "composite a green screen shot over the city background plate with motion tracking and light wrap", "should_trigger": false},
+{"query": "what's the difference between ProRes 422 and DNxHR HQ, which one should I ask the agency for?", "should_trigger": false},
+{"query": "turn the slides in pitch.pptx into a pdf handout with 3 slides per page", "should_trigger": false}
+]

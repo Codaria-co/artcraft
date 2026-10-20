@@ -39,6 +39,12 @@ cadcraft-cli convert part.dwg part.dxf
 cadcraft-cli convert part.dxf part.pdf                       # also .svg .png; fits drawing extents
 cadcraft-cli convert part.dxf detail.png --window 0,0,6,4    # crop to a rectangle in drawing units
 ```
+`convert` to PDF scales the drawing to fit the page, so nothing on paper can be measured. For a
+workshop or print drawing at true scale, plot it (tested: a 100 mm plate measures 100 mm on A4):
+```bash
+cadcraft-cli run part.dxf --cmd 'plot {"path":"part-1to1.pdf","layout":"Model","paper":"A4","landscape":true,"fit":false,"scale":"1:1"}'
+```
+Use `"1:2"`, `"1:50"` etc. for larger parts or buildings, and tell the user to print at 100 %.
 
 Draw a new drawing from an AutoCAD script, save DXF and a PNG preview. Use `--metric` for mm
 drawings so text and dimension sizes are sane (see Gotchas):

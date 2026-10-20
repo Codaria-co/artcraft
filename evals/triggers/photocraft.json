@@ -1,0 +1,22 @@
+[
+{"query": "retouch ~/clients/ana/portrait_final.psd: smooth the skin a bit, brighten the eyes with a curves layer and export a 2000px jpg for her website", "should_trigger": true},
+{"query": "I have a PSD template thumbnail_template.psd with a type layer called TITLE. make 12 youtube thumbnails, one per line in titles.txt, and export them as png", "should_trigger": true},
+{"query": "batch resize everything in ./fotos_producto to 1080x1080, add our watermark logo_blanco.png bottom-right at 40% opacity, save as webp", "should_trigger": true},
+{"query": "quita el fondo de zapato_rojo.jpg y deja solo el producto con transparencia, recorta el espacio vacío y guárdalo como png", "should_trigger": true},
+{"query": "can you export every layer of mockup_v3.psd as its own png? the designer left and I just need the assets", "should_trigger": true},
+{"query": "this client wants the banner in CMYK as a TIFF for print, it's banner_rgb.png at 300dpi — convert it and tell me if anything looks off", "should_trigger": true},
+{"query": "photoshop this: put screenshot.png on a 1200x630 canvas with a dark gradient, add the headline 'v2.0 is out' and a drop shadow, it's for the og:image", "should_trigger": true},
+{"query": "we have an old photoshop .atn action that the marketing team used for all their product shots. can I run that over 300 jpgs without buying photoshop?", "should_trigger": true},
+{"query": "inspect plano_casa.psd and tell me the layer tree, which layers are hidden and what fonts the text layers use", "should_trigger": true},
+{"query": "convert the EXR renders in renders/beauty_*.exr to 8-bit png with a levels adjustment so they're not so dark", "should_trigger": true},
+{"query": "develop the 400 CR3 raw files from the wedding in ~/Pictures/boda with my preset and export jpgs with sequential names", "should_trigger": false},
+{"query": "design a minimalist logo for my bakery as an SVG I can scale to a truck wrap", "should_trigger": false},
+{"query": "mock up the login screen for our mobile app with components and auto layout so the devs can inspect spacing", "should_trigger": false},
+{"query": "my Pillow script crops images wrong when EXIF orientation is 6, here's resize.py, can you fix it?", "should_trigger": false},
+{"query": "write the CSS for a hero section with a background image, dark overlay and centered heading that works on mobile", "should_trigger": false},
+{"query": "genera una foto de producto de una botella de aguardiente sobre una mesa de madera con luz cálida", "should_trigger": false},
+{"query": "lay out a 16-page product catalog A4 with our photos and prices from catalog.csv, with bleed for the printer", "should_trigger": false},
+{"query": "what's the difference between a clipping mask and a layer mask in photoshop? just conceptually", "should_trigger": false},
+{"query": "add a slow zoom-in and a title animation to this still image and export it as a 10 second mp4", "should_trigger": false},
+{"query": "compress all the images in public/ for the web — I want a sharp-based node script I can run in CI", "should_trigger": false}
+]

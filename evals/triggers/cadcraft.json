@@ -1,0 +1,22 @@
+[
+  {"query": "the architect sent planta-piso2.dwg but I don't have AutoCAD. can you tell me what layers it has and export it to a PDF I can print at 1:50 on A3?", "should_trigger": true},
+  {"query": "draw me a 100x60 mm steel mounting plate with 4 holes of 6.5mm diameter, 10mm in from each corner, dimension everything and save as DXF for the laser cutter", "should_trigger": true},
+  {"query": "convertir todos los .dxf de ./planos a dwg versión 2018 y sacar un png de vista previa de cada uno", "should_trigger": true},
+  {"query": "I have an AutoCAD script bracket.scr from an old workflow. run it, then add a DIM layer in red with the overall dimensions, and give me DXF + SVG", "should_trigger": true},
+  {"query": "measure the area of the polyline on layer 'LOTE' in lote-23.dxf and the distance between the two survey points labeled P1 and P2", "should_trigger": true},
+  {"query": "Make a simple floor plan of a 4x5 m bedroom with a 0.9m door on the south wall and a 1.2m window on the east wall, walls 15cm thick, hatched, metric", "should_trigger": true},
+  {"query": "in detail.dxf erase the entity with handle 2F4 and move the text 'NOTA 3' up 20 units, then save it as detail-rev2.dxf", "should_trigger": true},
+  {"query": "shop drawing for a wooden shelf: 800x300 side panel with 4 dado lines, need a true-scale 1:1 pdf on A4 landscape so the carpenter can measure it on paper", "should_trigger": true},
+  {"query": "Export just the region 0,0 to 20,12 of site-plan.dwg as a high-res PNG for the report, the whole drawing is too zoomed out", "should_trigger": true},
+  {"query": "tengo que generar 30 placas de identificación con distinto texto grabado (desde placas.csv) como dxf separados para la cnc, 80x30mm con un agujero de 4mm en cada extremo", "should_trigger": true},
+  {"query": "model a 3D gear with 24 teeth in Blender and export an STL for my 3D printer", "should_trigger": false},
+  {"query": "design an illustrated map of Cartagena's old city for a tourism poster, hand-drawn style, export SVG", "should_trigger": false},
+  {"query": "trace this logo.png into clean vector paths and give me an SVG and an EPS for the sign maker", "should_trigger": false},
+  {"query": "write an OpenSCAD script for a parametric box with a snap-fit lid, wall thickness 2mm", "should_trigger": false},
+  {"query": "combine the 12 exported plan PDFs into one set, add page numbers and a cover sheet, and compress it under 10MB for email", "should_trigger": false},
+  {"query": "Write the technical report for the remodel in docx including the plan image floorplan.png, a materials table and the cost summary", "should_trigger": false},
+  {"query": "build a FreeCAD Python macro that creates a parametric aluminum extrusion profile and pads it 500mm", "should_trigger": false},
+  {"query": "I'm parsing DXF files in my Python service with ezdxf and it crashes on MTEXT entities with unicode — here's the stack trace, what's wrong?", "should_trigger": false},
+  {"query": "make a wireframe of the mobile app's checkout flow with 4 screens", "should_trigger": false},
+  {"query": "create an architectural visualization render of the living room from a 3D model, photorealistic, warm evening light", "should_trigger": false}
+]

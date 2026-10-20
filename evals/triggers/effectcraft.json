@@ -1,0 +1,22 @@
+[
+  {"query": "need a 5 sec title card for my youtube intro, channel name 'Café con Código' sliding in from the left with a little bounce, dark navy bg, export 1920x1080 mp4 to ~/videos/intro/title.mp4", "should_trigger": true},
+  {"query": "Hazme un lower third animado para una entrevista: nombre 'Laura Gómez' y cargo 'Directora de Producto', que entre con un wipe y salga a los 6 segundos. Lo necesito con fondo transparente en ProRes 4444 para meterlo en el montaje.", "should_trigger": true},
+  {"query": "I have promo/template.ectemplate with fields headline, price and productImage. Render one MP4 per row of promo/products.json (there are 14 rows) into promo/out/ named by sku", "should_trigger": true},
+  {"query": "our designer handed me logo-reveal.ecproj but the client wants the logo scaled down 20% and the comp shortened from 8s to 5s, then re-render as webm for the landing page hero", "should_trigger": true},
+  {"query": "convert the lottie animation at src/assets/loader.json into a 2x GIF so I can paste it in the README, and also make the spinner color #ff5a36 instead of blue before exporting", "should_trigger": true},
+  {"query": "quiero un reel 9:16 de 10 segundos con kinetic typography: las frases de quotes.txt apareciendo una por una con escala y opacidad, fondo con gradiente que se mueve lento. Guárdalo como frases-9x16.mp4", "should_trigger": true},
+  {"query": "I've got an old After Effects ExtendScript (scripts/batch_titles.jsx) that loops over a CSV and creates a text layer per row. Can you run it headless and render each comp to a PNG sequence?", "should_trigger": true},
+  {"query": "write me a wiggle expression for the position of the 'Badge' layer so it shakes for the first second and then settles, and apply it in launch.ecproj comp 'Main'", "should_trigger": true},
+  {"query": "animated instagram post for black friday: big '50% OFF' that pops in, confetti shapes falling, 1080x1350, loop 4s, render mp4 and a gif version", "should_trigger": true},
+  {"query": "i want to export the countdown animation from my motion project as a lottie .json so the frontend team can drop it in with lottie-web instead of a heavy video", "should_trigger": true},
+  {"query": "I have 3 hours of raw interview footage in ~/shoot/day1/*.mov. Cut out the ums and long pauses, assemble a 4 minute edit in story order and export h264 1080p", "should_trigger": false},
+  {"query": "Necesito pegar los clips de la boda (carpeta boda/clips) en orden cronológico, ponerle la canción de fondo y subtítulos desde boda.srt quemados, exportar en vertical para Instagram", "should_trigger": false},
+  {"query": "color grade these drone clips with a teal-orange look and sync them to the beat of track.wav on the timeline, then render", "should_trigger": false},
+  {"query": "In my React app, the framer-motion animation on the hero heading stutters on mobile Safari. Can you look at components/Hero.tsx and fix the transition so it's smooth?", "should_trigger": false},
+  {"query": "generate a short cinematic video of a hummingbird drinking from a flower in slow motion, photorealistic, 5 seconds", "should_trigger": false},
+  {"query": "clean up the voiceover in vo_take3.wav: remove the room hum, de-ess, normalize to -16 LUFS and export a wav", "should_trigger": false},
+  {"query": "our CSS keyframes for the loading skeleton in styles/skeleton.css look janky, rewrite them so the shimmer moves left to right in 1.2s with ease-in-out", "should_trigger": false},
+  {"query": "can you explain how After Effects expressions differ from keyframes conceptually, and when a motion designer should prefer one over the other? just theory, i'm writing a blog post", "should_trigger": false},
+  {"query": "design a static poster for the jazz night on Friday, A3, with the band photo, date and venue, export a print-ready PDF with bleed", "should_trigger": false},
+  {"query": "Write a Remotion component in our Next.js repo (src/video/Intro.tsx) that renders the user's name with a spring animation, and wire it into the existing render script", "should_trigger": false}
+]

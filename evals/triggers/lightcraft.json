@@ -1,0 +1,22 @@
+[
+  {"query": "I just got back from a wedding shoot, ~/Photos/2026-10-18-boda-ramirez/ has 640 .CR3 files. Can you auto-tone all of them, warm them up a bit (+300K or so), and export web-size JPEGs at 2048px long edge, quality 82, renamed boda-ramirez-001.jpg etc into ./exports/web?", "should_trigger": true},
+  {"query": "tengo una carpeta con fotos RAW de sony (.ARW) del viaje a Salento, quiero aplicarles un look tipo golden hour a todas y sacar copias en jpg para instagram, me ayudas a armar el comando?", "should_trigger": true},
+  {"query": "I have a Lightroom preset 'Moody Film.xmp' that my friend sent me. apply it to every DNG in ./raw/street and export TIFF 16-bit in ProPhoto for printing", "should_trigger": true},
+  {"query": "merge these bracketed exposures into an HDR dng: IMG_4410.NEF IMG_4411.NEF IMG_4412.NEF (-2, 0, +2 EV). then pull the highlights down and lift shadows on the merged result and give me a jpeg preview", "should_trigger": true},
+  {"query": "My old Lightroom Classic catalog is at ~/Pictures/Lightroom/Main.lrcat. I want to move off Adobe — import it into an open source library, keep my star ratings, flags and keywords, and then make an album with every 5-star photo from 2025.", "should_trigger": true},
+  {"query": "convert ./portraits/*.jpg to black and white with high contrast, add a little grain and a soft vignette, and stamp a '© Laura Gómez' watermark bottom-right on the exports", "should_trigger": true},
+  {"query": "Necesito unir 6 fotos .RAF de un paisaje en Los Nevados en una panorámica DNG, y después corregir el balance de blancos que quedó muy azul. Las fotos están en ~/fotos/nevados/pano/", "should_trigger": true},
+  {"query": "the client wants the product shots in ./shoot/*.NEF delivered as AVIF and WebP, max 1600px, sRGB, plus a full-res JPEG XL archive copy. some are underexposed by like a stop so fix exposure first", "should_trigger": true},
+  {"query": "can you go through ./catalog-test, rate anything blurry 1 star, flag the keepers, tag them with 'medellin' and 'street', and write xmp sidecars so my other software sees the keywords?", "should_trigger": true},
+  {"query": "reduce noise on these high-ISO concert shots (ISO 12800, .CR3 in ./gig), sharpen a little, desaturate the magenta stage lights using the HSL mixer and export full res jpgs", "should_trigger": true},
+  {"query": "I have hero.psd with 14 layers. Replace the background layer with sky.jpg, add a drop shadow to the product layer and export a flattened PNG at 3000px", "should_trigger": false},
+  {"query": "quítale el fondo a estas 40 fotos de producto (zapatos.jpg, etc) y ponlas sobre fondo blanco puro para la tienda, en una sola capa compuesta", "should_trigger": false},
+  {"query": "retouch the bride's skin in IMG_0021.jpg, remove the exit sign in the background with content-aware fill and add the couple's names in a script font across the bottom", "should_trigger": false},
+  {"query": "Lay out a 24-page A4 photo book from the 60 best photos in ./selects, two per spread with captions, facing pages, 3mm bleed, and export a print-ready PDF", "should_trigger": false},
+  {"query": "generate a cinematic golden-hour photo of a coffee farm in Quindío with workers picking cherries, 16:9, for the landing page hero", "should_trigger": false},
+  {"query": "write a python script using rawpy and numpy that reads a .NEF and returns the black level and bayer pattern, I'm building a demosaicing benchmark", "should_trigger": false},
+  {"query": "color grade my wedding film timeline (boda.fcproj) with a warm teal-orange look and export it to H.264 1080p", "should_trigger": false},
+  {"query": "our Next.js site's images are huge. set up next/image with AVIF/WebP and proper sizes attributes so lighthouse stops complaining about LCP", "should_trigger": false},
+  {"query": "Make a 12-slide portfolio presentation for my photography business using the photos in ./selects, one big photo per slide with a title, export to pptx", "should_trigger": false},
+  {"query": "strip all EXIF GPS metadata from the jpgs in ./upload before I post them, just exiftool is fine, I don't want them edited", "should_trigger": false}
+]

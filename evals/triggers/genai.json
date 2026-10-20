@@ -1,0 +1,22 @@
+[
+{"query": "generate a 1920x1080 background image for the title slide of my deck — soft gradient, abstract mountains, our brand teal #0F766E. then put it in slides/intro.deckcraft", "should_trigger": true},
+{"query": "what AI can I use on this machine to make images? I have a 3090 and I think ComfyUI is installed somewhere but I don't want to pay for anything", "should_trigger": true},
+{"query": "necesito una voz en off en español colombiano, masculina y cálida, leyendo el guion de guion_promo.txt, para meterla en el proyecto de FilmCraft promo.fcproj", "should_trigger": true},
+{"query": "make me a 30 second lofi loop with no vocals I can use as background music under my product reel, wav please", "should_trigger": true},
+{"query": "I need a seamless tileable rust/metal texture at 2048px for a PhotoCraft composite, can you create one?", "should_trigger": true},
+{"query": "turn this sketch of a mascot (mascot_sketch.png) into a 3D model I can spin around, glb format", "should_trigger": true},
+{"query": "create 4 variations of a logo idea for a coffee shop called 'Tinto & Co' — I'll vectorize the one I like afterwards", "should_trigger": true},
+{"query": "quiero un clip corto de b-roll: drone sobre cafetales en el Eje Cafetero al amanecer, 6 segundos, horizontal. ¿cuánto me costaría y con qué lo hacemos?", "should_trigger": true},
+{"query": "I have an ARTCRAFT_API_KEY now. can we use the Omni API to render a product shot of our water bottle on a beach instead of paying for a photoshoot?", "should_trigger": true},
+{"query": "imagine a moody cyberpunk alley at night with neon signs in spanish, render it 4:5 for an instagram post", "should_trigger": true},
+{"query": "remove the background from product.jpg and put a soft drop shadow under it on pure white", "should_trigger": false},
+{"query": "trim the first 3 seconds off clip_04.mov and add a fade to black at the end, then export h264", "should_trigger": false},
+{"query": "write me 5 detailed Midjourney prompts for a fantasy book cover — just the prompt text, I'll run them myself on discord", "should_trigger": false},
+{"query": "my stable diffusion training script in train_lora.py OOMs at batch size 4 on a 24GB card, how do I add gradient checkpointing?", "should_trigger": false},
+{"query": "explain how diffusion models work vs GANs, I'm preparing a class for my students and need the intuition, not code", "should_trigger": false},
+{"query": "upscale the colors in hero.psd — the sky looks washed out, bump saturation and add a curves adjustment layer", "should_trigger": false},
+{"query": "transcribe entrevista_ceo.mp3 to text and then make an SRT file with timestamps", "should_trigger": false},
+{"query": "normalize podcast_ep12.wav to -16 LUFS, cut the long silences and de-ess the host", "should_trigger": false},
+{"query": "add an OpenAI image generation endpoint to my Next.js app — POST /api/generate that calls gpt-image and returns the URL, with rate limiting", "should_trigger": false},
+{"query": "vectorize the attached logo.png so I get a clean svg with flat colors", "should_trigger": false}
+]

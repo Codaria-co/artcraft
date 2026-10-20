@@ -1,0 +1,22 @@
+[
+{"query": "convert brand/logo_final.ai to svg, pdf and eps, and outline all the text so the printer doesn't complain about missing fonts", "should_trigger": true},
+{"query": "I have icons.ai with 24 artboards. export each artboard as svg plus png at 1x, 2x and 3x into dist/icons/", "should_trigger": true},
+{"query": "vectoriza el logo_viejo.jpg que me mandó el cliente, está pixelado. necesito un svg limpio con colores planos", "should_trigger": true},
+{"query": "make a simple round badge icon: navy circle, white star in the middle, text 'VERIFIED' on an arc. svg output", "should_trigger": true},
+{"query": "the sticker shop needs a PDF/X-4 of stickers.svg with the cut line as a separate spot color. can you prep it?", "should_trigger": true},
+{"query": "open poster.eps and tell me what fonts it uses, how many artboards, and whether it's CMYK or RGB", "should_trigger": true},
+{"query": "unite these overlapping shapes in mark.svg into one compound path and subtract the inner circle — basically pathfinder", "should_trigger": true},
+{"query": "a client sent an old .emf from a word doc with their logo. I need it as a clean svg for the website", "should_trigger": true},
+{"query": "change the font in all text objects of flyer.ai from Arial to Inter and re-export a vector pdf", "should_trigger": true},
+{"query": "turn diagram.dxf into an svg I can embed in the docs — it's just line art, not real engineering", "should_trigger": true},
+{"query": "draw the floor plan for the office remodel with dimensions in mm, layers per discipline, and save as dwg for the architect", "should_trigger": false},
+{"query": "split contrato_firmado.pdf into one file per page and OCR the scanned pages", "should_trigger": false},
+{"query": "design the settings screen for our app with reusable button and toggle components, light and dark modes", "should_trigger": false},
+{"query": "retouch the product photo hero.jpg, fix the white balance and remove the dust spots", "should_trigger": false},
+{"query": "write an SVG path animation in CSS that draws our logo stroke on page load", "should_trigger": false},
+{"query": "my react component renders inline svgs from props and the viewBox breaks on Safari, here's Icon.tsx", "should_trigger": false},
+{"query": "genera 6 ideas de logo para una marca de café de especialidad llamada Montaña Alta, estilo minimalista", "should_trigger": false},
+{"query": "animate the logo.svg so it bounces in and export it as Lottie json for the app splash", "should_trigger": false},
+{"query": "lay out a trifold brochure with lots of body text flowing across columns and export a print pdf with crop marks", "should_trigger": false},
+{"query": "what's the difference between SVG and EPS and when should a designer deliver each? just explain", "should_trigger": false}
+]

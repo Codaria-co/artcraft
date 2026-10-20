@@ -69,6 +69,11 @@ cat > steps.json <<'EOF'
 EOF
 pdfcraft-cli run --script steps.json --report     # one JSON document: ok + per-step status/result
 ```
+Redaction patterns are validators, not just regexes: `"pattern":"ssn"` skips numbers that are not
+valid US SSNs (e.g. starting with 9 or 000), so a fake or foreign ID can survive. Before redacting,
+grep `pdfcraft-cli text` with a broad regex (`[0-9]{3}-[0-9]{2}-[0-9]{4}`) and add an exact-text
+`redact_mark` for anything the pattern missed; afterwards re-run `text` and `audit` to prove nothing
+is left.
 Tools that don't need an open document run directly, with `key=value` args (arrays/objects as JSON):
 ```bash
 pdfcraft-cli run doc_combine 'paths=["a.pdf","notes.txt","photo.jpg"]' out=merged.pdf

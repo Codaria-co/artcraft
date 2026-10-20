@@ -1,0 +1,22 @@
+[
+  {"query": "I recorded episode 42 of my podcast, two mics: host.wav and guest.wav in ./ep42. Can you clean up the voices (EQ low cut, compressor, de-esser), add a fade in/out, mix them down and bounce to a 24-bit WAV?", "should_trigger": true},
+  {"query": "grabé una locución para un comercial (locucion_final.wav) y tiene muchas eses fuertes y picos, me la normalizas a -1 dBFS y le quitas las eses? la necesito en 48 kHz", "should_trigger": true},
+  {"query": "batch convert everything in ./samples from 96k/32-bit float WAV to 44.1k 16-bit with dither, keep the folder structure, output FLAC", "should_trigger": true},
+  {"query": "open song-mix.scraft and export stems for each track (drums, bass, keys, vox) as separate WAVs, from bar 1 to the end marker", "should_trigger": true},
+  {"query": "what are the sample rate, bit depth, channels and peak level of these three .aiff files the label sent me? one of them sounds clipped", "should_trigger": true},
+  {"query": "Trim interview_raw.wav to just 00:03:12–00:17:45, add 2s fades both ends, put a gentle reverb on it and bounce that range to WAV for the radio station", "should_trigger": true},
+  {"query": "set up a multitrack session with music bed (bed.flac) under narration (narr.wav), clip gain the bed down -12 dB, a maximizer on the master, and drop markers at each chapter: 0:00, 1:30, 4:10", "should_trigger": true},
+  {"query": "in my Rust audio pipeline I just need a CLI step that peak-normalizes every wav in out/ and reverses the ones whose name ends in _rev — can we script that with an existing tool instead of writing DSP code?", "should_trigger": true},
+  {"query": "the voice-over for our explainer (vo_take3.wav) is a bit low and muddy. pitch it down a tiny bit? nah — actually just EQ the mud out around 250Hz, compress, and bounce. no video involved", "should_trigger": true},
+  {"query": "Necesito exportar la mezcla final de mi sesión .scraft a FLAC y revisar el loudness del bounce antes de mandarla a masterizar", "should_trigger": true},
+  {"query": "replace the audio track on promo.mp4 with music.wav, duck the music under the dialog on the timeline and export the video in H.264", "should_trigger": false},
+  {"query": "Add subtitles to entrevista.mp4 from the SRT and lower the background music in the edit before exporting a 9:16 vertical version for reels", "should_trigger": false},
+  {"query": "generate a 30-second lo-fi hip hop loop for my YouTube intro and a whoosh sound effect", "should_trigger": false},
+  {"query": "transcribe podcast_ep41.wav with whisper and give me show notes with timestamps", "should_trigger": false},
+  {"query": "convert all my .wav files to 320kbps MP3 with ID3 tags for album, artist and track number", "should_trigger": false},
+  {"query": "write a Web Audio API visualizer in React that draws the waveform of an uploaded mp3 on a canvas", "should_trigger": false},
+  {"query": "my AirPods sound crackly on macOS when Zoom is open, the input sample rate keeps switching. how do I fix this in Audio MIDI Setup?", "should_trigger": false},
+  {"query": "clone my voice from these 3 samples and have it read script.txt in Spanish for the tutorial", "should_trigger": false},
+  {"query": "animate an audio-reactive waveform overlay for the podcast clip with glow effects and export a ProRes 4444 with alpha", "should_trigger": false},
+  {"query": "Fix the jitter buffer in our WebRTC Go server, voice calls get choppy above 200ms latency", "should_trigger": false}
+]

@@ -1,0 +1,22 @@
+[
+  {"query": "merge contracts/2026/*.pdf into one file ordered by the date in the filename, then add page numbers at the bottom center and save as contracts-2026-bundle.pdf", "should_trigger": true},
+  {"query": "el escaneo de la cédula y el RUT me quedó en un PDF de 38 MB y el portal de la DIAN solo acepta hasta 5 MB, ¿me lo puedes comprimir sin que se vuelva ilegible?", "should_trigger": true},
+  {"query": "before we send discovery to opposing counsel, redact every SSN, email and phone number in production/batch_04.pdf and Bates-number it starting at ACME-004512", "should_trigger": true},
+  {"query": "someone sent me a 'redacted' pdf where they just drew black boxes. can you check whether the text underneath is still extractable in ~/Downloads/settlement_redacted.pdf?", "should_trigger": true},
+  {"query": "pages 3 and 7 of scan_invoice_march.pdf are upside down and page 12 is a blank — fix rotation, drop the blank, and OCR the whole thing so I can search it", "should_trigger": true},
+  {"query": "split the 400-page board_pack.pdf into separate files at every bookmark (one per agenda item) into board_pack/sections/", "should_trigger": true},
+  {"query": "Necesito ponerle una marca de agua diagonal que diga 'CONFIDENCIAL' en gris a todas las páginas de propuesta_cliente.pdf y protegerlo con contraseña para abrir", "should_trigger": true},
+  {"query": "fill out the W-9 form at forms/fw9.pdf with our company info from company.json and flatten it", "should_trigger": true},
+  {"query": "what's actually in this thing? vendor_spec.pdf — how many pages, which fonts are embedded, is it encrypted, and dump the text of section 4 for me", "should_trigger": true},
+  {"query": "I have 60 phone photos of receipts in receipts/oct/*.jpg; turn them into a single PDF, one receipt per page, in filename order", "should_trigger": true},
+  {"query": "Write the quarterly report for the board from notes.md: exec summary, KPI table, risks section with headings and a TOC, and give me a docx plus a PDF", "should_trigger": false},
+  {"query": "lay out a 12-page product catalog with a master page, two-column text threaded across pages, product photos and a print-ready PDF with crop marks and 3mm bleed", "should_trigger": false},
+  {"query": "export my sales_kickoff.pptx to PDF with 3 slides per page handouts for the printed binder", "should_trigger": false},
+  {"query": "our Django app generates invoices with ReportLab in billing/pdf.py and the totals column overflows on long amounts; fix the column widths in the code", "should_trigger": false},
+  {"query": "Redacta una carta de renuncia formal en español para mi jefe, tono cordial, con fecha y firma, y exporta a PDF", "should_trigger": false},
+  {"query": "I need to pull the vector logo out of page 1 of brand_guidelines.pdf and clean up the paths so I can use it as an SVG on the website", "should_trigger": false},
+  {"query": "add a /api/reports/:id/download endpoint to our express server that streams the generated PDF from S3 with proper Content-Disposition headers", "should_trigger": false},
+  {"query": "explain the difference between PDF/A-1b and PDF/A-3 for long-term archiving, our compliance team is asking which one we should mandate", "should_trigger": false},
+  {"query": "convert the CSV export of our Q3 transactions into an Excel workbook with a totals row and a pivot by category, then print that sheet to PDF", "should_trigger": false},
+  {"query": "track changes are still showing in contract_v5.docx — accept all of them, remove the comments and send me a clean PDF version", "should_trigger": false}
+]

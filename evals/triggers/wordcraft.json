@@ -1,0 +1,22 @@
+[
+  {"query": "write a two-page cover letter for the Senior Backend role at Rappi using my resume at ~/cv/resume.md, formal tone, and give me a .docx I can tweak", "should_trigger": true},
+  {"query": "Necesito hacer la carta de cobro para 85 clientes morosos: la plantilla está en cobro.docx con campos «Nombre», «Saldo» y «Fecha», y los datos en cartera.xlsx. Genera un documento por cliente.", "should_trigger": true},
+  {"query": "legal sent back msa_v3.docx with tracked changes from two reviewers. accept everything from Maria, reject Tom's edits in section 7, and give me a clean copy", "should_trigger": true},
+  {"query": "convert docs/handbook.md to a docx with a table of contents, our company header with logo.png, page numbers in the footer, A4 paper", "should_trigger": true},
+  {"query": "how many words is thesis_final.docx excluding the references section? my advisor says max 12k", "should_trigger": true},
+  {"query": "add review comments to proposal.docx anywhere the text makes a claim without a citation, and highlight passive voice. don't change the text itself", "should_trigger": true},
+  {"query": "turn this LaTeX paper (paper/main.tex) into a Word document because the journal only accepts .docx submissions, keep the tables and headings", "should_trigger": true},
+  {"query": "draft a 1-page memo to all staff about the new remote-work policy, with a short bulleted summary up top and a 'DRAFT' watermark, export pdf", "should_trigger": true},
+  {"query": "render page 3 of the client report (reports/acme_q3.docx) as a png so I can check why the table is spilling over the margin", "should_trigger": true},
+  {"query": "hazme una hoja de vida en español, una página, a partir de mi LinkedIn que pego abajo, y exporta a .docx y .odt", "should_trigger": true},
+  {"query": "I have a signed scanned contract (contract_signed.pdf) — extract pages 4-6 and remove the password so I can forward it", "should_trigger": false},
+  {"query": "redact all the personal info in the hr_complaint.pdf before forwarding it to the external investigator", "should_trigger": false},
+  {"query": "design a tri-fold brochure for the dental clinic with photos, two spot colors and print-ready PDF with crop marks", "should_trigger": false},
+  {"query": "turn my report.docx into a 10-slide summary deck for the steering committee", "should_trigger": false},
+  {"query": "in our Flask app, the python-docx code in exports/word.py loses table borders when generating invoices — fix the styling in code", "should_trigger": false},
+  {"query": "Write a README.md for this repo explaining setup, env vars and how to run tests", "should_trigger": false},
+  {"query": "edit my blog post draft in posts/2026-10-ai-agents.mdx: tighten the intro, fix grammar, keep the MDX components intact", "should_trigger": false},
+  {"query": "convert budget.xlsx to CSV and fix the dates that came out as serial numbers", "should_trigger": false},
+  {"query": "what's the difference between .docx and .odt and which one should our government client require for archival? just explain", "should_trigger": false},
+  {"query": "fill in the fillable fields of the visa application form visa_app.pdf with my passport details and flatten it", "should_trigger": false}
+]

@@ -1,0 +1,22 @@
+[
+  {"query": "I need a tri-fold brochure for our dental clinic, US Letter landscape, 3 columns, 0.125in bleed. Use logo.png and the copy in brochure.txt, and export a print-ready PDF with crop marks for the print shop", "should_trigger": true},
+  {"query": "tenemos un csv con 85 asistentes (nombre, empresa, cargo) en ./evento/asistentes.csv, necesito escarapelas de 4x3 pulgadas para cada uno con el logo del congreso, todo en un PDF para imprimir", "should_trigger": true},
+  {"query": "my designer left and all I have is newsletter-oct.indd. can you open it, swap the October dates for November, update the cover photo to nov-cover.jpg, and export the PDF + an IDML so someone else can keep editing it?", "should_trigger": true},
+  {"query": "set up a 120-page 6x9 novel interior: parent pages with running heads and page numbers, facing pages, and autoflow manuscript.txt through threaded text frames, then export an EPUB as well as the print PDF", "should_trigger": true},
+  {"query": "make a 16-page A5 zine from these 20 illustrations in ./art and short poems in poems.md, one poem + one illustration per spread", "should_trigger": true},
+  {"query": "Business cards for 6 employees, 3.5x2in, front with logo and back with name/role/phone from team.csv. 10-up imposed on letter would be great but separate pages is fine", "should_trigger": true},
+  {"query": "preflight catalogo-2026.designcraft and tell me about missing fonts, low-res images or overset text, then package it for the printer", "should_trigger": true},
+  {"query": "Hazme un afiche tamaño tabloide para el bazar navideño del colegio, con foto de fondo, título grande, fecha 14 de diciembre y lugar. lo necesito en PDF y en PNG para whatsapp", "should_trigger": true},
+  {"query": "build our product catalogue: 40 products from products.csv (name, sku, price, photo path), 4 per page, A4, consistent paragraph styles, and export each page as a 150dpi PNG for the website too", "should_trigger": true},
+  {"query": "Our quarterly magazine has 32 pages. I want the cover, an editorial page with a two-column body, and a feature spread with a pull quote — set up the swatches and character styles from our brand guide (navy #1B2A4A, coral #FF6F59)", "should_trigger": true},
+  {"query": "Turn outline.md into a 15-slide pitch deck for investors with our brand theme and speaker notes, export pptx", "should_trigger": false},
+  {"query": "write my thesis chapter 3 in docx with tracked changes on, add a table of contents and APA-style headings, the advisor wants Word format", "should_trigger": false},
+  {"query": "merge contrato-firmado.pdf with anexo1.pdf and anexo2.pdf, then redact the cédula numbers on page 3", "should_trigger": false},
+  {"query": "design a minimalist logo for 'Café La Ceiba' — a ceiba tree silhouette inside a circle, export SVG and a PNG favicon", "should_trigger": false},
+  {"query": "mock up the onboarding screens for our fintech app, iPhone 16 frames, with a reusable button component and light/dark tokens", "should_trigger": false},
+  {"query": "build an HTML email newsletter template with MJML for our November campaign, responsive, with 2 product blocks and a CTA button", "should_trigger": false},
+  {"query": "I have a LaTeX paper in ./paper/main.tex, the two-column IEEE layout broke after I added a wide table. fix the table so it spans both columns", "should_trigger": false},
+  {"query": "create the monthly budget report in xlsx with a pivot of spend by department and a bar chart, from expenses.csv", "should_trigger": false},
+  {"query": "generate 3 poster background images with a retro 70s sunset vibe I can use later, 18x24 ratio, no text", "should_trigger": false},
+  {"query": "convert manual.docx to markdown and split it into one md file per H1 heading for our docs site", "should_trigger": false}
+]
